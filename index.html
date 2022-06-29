@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>AT JS</title>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+        <h1>Jogo da memoria</h1>
+    </header>
+    <main>
+      <section id="controle">
+        <h1 id="timer">00:00</h1>
+        <button id="start" onclick="start() ">start</button>
+      </section>
+      <section id="jogo">
+      <div class="tabuleiro">
+        <div class="card" data-card="card1">
+          <img class="card-front" src="./img/card1.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card2">
+          <img class="card-front" src="./img/card2.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card3">
+          <img class="card-front" src="./img/card3.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card4">
+          <img class="card-front" src="./img/card4.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card5">
+          <img class="card-front" src="./img/card5.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card6">
+          <img class="card-front" src="./img/card6.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card7">
+          <img class="card-front" src="./img/card7.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card8">
+          <img class="card-front" src="./img/card8.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card1">
+          <img class="card-front" src="./img/card1.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card2">
+          <img class="card-front" src="./img/card2.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card3">
+          <img class="card-front" src="./img/card3.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card4">
+          <img class="card-front" src="./img/card4.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card5">
+          <img class="card-front" src="./img/card5.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card6">
+          <img class="card-front" src="./img/card6.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card7">
+          <img class="card-front" src="./img/card7.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+        <div class="card" data-card="card8">
+          <img class="card-front" src="./img/card8.png" />
+          <img class="card-back" src="./img/blank.png" />
+        </div>
+      </div>
+      <div id="pontos">
+        <h3>jogadas</h3>
+        <ul id="ponto"></ul>
+      </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; Instituto INFNET - Marcos Cassiano de Souza</p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
